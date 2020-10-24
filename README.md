@@ -8,7 +8,7 @@ Adds a `displayCornerRadius` property to `UIScreen`, which reads the private `_d
 
 #### Why didn't you hardcode the values instead?
 
-I didn't want to use model identifiers (i.e., `iPhone10,2`) and miss an international variant, or have to update it when new devices launch internationally. 
+I didn't want to use model identifiers (i.e., `iPhone10,2`) and miss an international variant, or have to update it when new devices launch. 
 
 It's also tricky to use screen resolutions, as multiple devices share the same resolution and scale with different corner radii.
 
