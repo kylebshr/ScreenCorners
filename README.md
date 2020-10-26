@@ -1,6 +1,6 @@
 # ScreenCorners
 
-Check the corner radius of a screens display.
+Check the corner radius of an iPhone / iPad display.
 
 ### Implementation
 
