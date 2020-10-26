@@ -22,7 +22,6 @@ class DisplayCornerMatchingView: UIView {
         super.init(frame: frame)
         layer.cornerCurve = .continuous
         layer.cornerRadius = UIScreen.main.displayCornerRadius
-
     }
 }
 ```
