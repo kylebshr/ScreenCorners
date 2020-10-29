@@ -4,7 +4,7 @@ Check the corner radius of an iPhone / iPad display.
 
 ### Implementation
 
-Adds a `displayCornerRadius` property to `UIScreen`, which reads the private `_displayCornerRadius`. The selector is base64 encoded, which usually means it will get past app review. However, use at your own risk!
+Adds a `displayCornerRadius` property to `UIScreen`, which reads the private `_displayCornerRadius`. The selector somewhat obscured, which usually means it will get past app review. However, use at your own risk!
 
 #### Why didn't you hardcode the values instead?
 
