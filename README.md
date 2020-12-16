@@ -10,7 +10,7 @@ Adds a `displayCornerRadius` property to `UIScreen`, which reads the private `_d
 
 I didn't want to use model identifiers (i.e., `iPhone10,2`) and miss an international variant, or have to update it when new devices launch. 
 
-It's also tricky to use screen resolutions, as multiple devices share the same resolution and scale with different corner radii.
+It's also tricky to use screen resolutions, as multiple devices share the same resolution and scale with different corner radii. Display Zoom messes with this too, and ultimately it just seems like a bad idea to assume anything about the device based on the display resolution.
 
 ### How to use
 
