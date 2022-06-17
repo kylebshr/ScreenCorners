@@ -18,10 +18,10 @@ iOS device displays use a continious corner curve, which means the corners are n
 
 ```swift
 class DisplayCornerMatchingView: UIView {
-    override init(frame: CGRect) {
-        super.init(frame: frame)
+    override func layoutSubviews()
+        super.layoutSubviews()
         layer.cornerCurve = .continuous
-        layer.cornerRadius = UIScreen.main.displayCornerRadius
+        layer.cornerRadius = window?.screen.displayCornerRadius ?? 0
     }
 }
 ```
