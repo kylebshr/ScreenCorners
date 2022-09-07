@@ -30,7 +30,7 @@ Or perhaps you want to animate from a different corner radius to the screen one.
 
 ### Values reported
 
-On iOS 14.1, the follow values were reported for each device with rounded corners:
+The follow values were reported for each device with rounded corners:
 
 | Device | Value (pts) |
 |--|--|
@@ -39,4 +39,10 @@ On iOS 14.1, the follow values were reported for each device with rounded corner
 | iPhone 12 mini | 44.0 |
 | iPhone 12 / 12 Pro | 47.33 |
 | iPhone 12 Pro Max | 53.33 |
+| iPhone 13 mini | 44.0 |
+| iPhone 13 / 13 Pro | 47.33 |
+| iPhone 13 Pro Max | 53.33 |
+| iPhone 14 | 47.33 |
+| iPhone 14 Plus | 53.33 |
+| iPhone 14 Pro / 14 Pro Max | 55.0 |
 | iPad Air / iPad Pro 11-inch / 12.9-inch | 18.0 |
