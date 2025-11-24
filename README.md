@@ -14,7 +14,7 @@ It's also tricky to use screen resolutions, as multiple devices share the same r
 
 ### How to use
 
-iOS device displays use a continious corner curve, which means the corners are not true circles. In iOS 13+ you can use `CALayer.cornerCurve` to specify a continuous corner curve. You might create a view subclass like this:
+iOS device displays use a continuous corner curve, which means the corners are not true circles. In iOS 13+ you can use `CALayer.cornerCurve` to specify a continuous corner curve. You might create a view subclass like this:
 
 ```swift
 class DisplayCornerMatchingView: UIView {
