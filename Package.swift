@@ -8,7 +8,7 @@ let package = Package(
         .iOS(.v12),
     ],
     products: [
-        .library(name: "ScreenCorners", targets: ["ScreenCorners"]),
+        .library(name: "ScreenCorners", type: .dynamic, targets: ["ScreenCorners"]),
     ],
     targets: [
         .target(name: "ScreenCorners"),
